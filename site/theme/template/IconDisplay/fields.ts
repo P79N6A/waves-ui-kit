@@ -1,0 +1,90 @@
+export const categories = {
+  direction: [
+    'icon-send',
+    'icon-receive',
+    'icon-download',
+    'icon-search',
+    'icon-close',
+    'icon-settings',
+    'icon-filter',
+    'icon-qrmini',
+    'icon-script',
+    'icon-json',
+    'icon-fullscreen',
+    'icon-exitfullscreen',
+    'icon-copy',
+    'icon-chevronup',
+    'icon-chevrondown',
+    'icon-plus',
+    'icon-chevronleft',
+    'icon-chevronright',
+    'icon-unpin',
+    'icon-show',
+    'icon-hide',
+    'icon-arrowdown',
+    'icon-arrowup',
+    'icon-dexmini',
+    'icon-copylarge',
+    'icon-menu',
+    'icon-qrlarge',
+    'icon-menuwalletoutlined',
+    'icon-menutokenoutlined',
+    'icon-menudexoutlined',
+    'icon-menusettingoutlined',
+    'icon-menuexit',
+    'icon-menulogin',
+    'icon-settinggeneraloutlined',
+    'icon-settinginfooutlined',
+    'icon-settingnetworkoutlined',
+    'icon-settingsecurityoutlined',
+
+    'icon-chrome',
+    'icon-firefox',
+    'icon-opera',
+    'icon-safari',
+    'icon-anonim',
+    'icon-passbrowser',
+    'icon-refreshbrowser',
+    'icon-backup',
+    'icon-shredder',
+    'icon-mailopen',
+    'icon-os',
+    'icon-wifi',
+    'icon-link',
+    'icon-plugin',
+
+    'icon-menuwalletfilled',
+    'icon-menutokenfilled',
+    'icon-menufexfilled',
+    'icon-assetsfilled',
+    'icon-transactionfilled',
+    'icon-portfoliofilled',
+    'icon-leasingfilled',
+
+    'icon-settinggeneralfilled',
+    'icon-settinginfofilled',
+    'icon-settingnetworkfilled',
+    'icon-settingsecurityfilled',
+    'icon-circlequestion',
+    'icon-circlesubmit',
+    'icon-circlecheckfilled',
+    'icon-circleerrorfilled',
+    'icon-trianglewarningfilled',
+    'icon-lockfilled',
+
+
+    'icon-dotsvertical',
+    'icon-triangleselectup',
+    'icon-triangleselectdown',
+  ],
+  transactions: [
+    'step-forward'
+  ],
+};
+
+export interface Categories {
+  direction: string[];
+  transactions: string[];
+}
+
+export type CategoriesKeys = keyof Categories;
