@@ -5,13 +5,13 @@
 
 // size mixins for input
 .input-lg() {
-  padding: @input-padding-vertical-lg @input-padding-horizontal-lg;
+  padding: @input-padding-horizontal-lg;
   height: @input-height-lg;
   font-size: @font-size-lg;
 }
 
 .input-sm() {
-  padding: @input-padding-vertical-sm @input-padding-horizontal-sm;
+  padding: @input-padding-horizontal-sm;
   height: @input-height-sm;
 }
 
@@ -20,7 +20,6 @@
 .active(@color: @outline-color) {
   border-color: ~`colorPalette('@{color}', 5) `;
   outline: 0;
-  box-shadow: @input-outline-offset @outline-blur-size @outline-width fade(@color, 20%);
   border-right-width: @border-width-base !important;
 }
 
